@@ -1,8 +1,7 @@
-qa_guru_python_8_22
-Задание к двадцать второму уроку курса QA Guru
+# qa_guru_python_8_22
 
-Локальный запуск на эмулированном устройсте
+## Локальный запуск на эмулированном устройсте
 pytest -s -v --context=local_emulator .
 
-Удаленный запуск на BrowserStack
+## Удаленный запуск на BrowserStack
 pytest -s -v --context=bstack .
